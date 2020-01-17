@@ -26,21 +26,28 @@
 		data.addColumn('string','tooltip'); 
 		data.addColumn('number','Example');
 		data.addColumn({type:'string', role:'tooltip'});
+
 										
-		data.addRows([[41.151636,-8.569336,'Porto',0,'ESTIEM Concill Meeting']]);
-		data.addRows([[ 39.059575,-98.789062,'USA',1,'Work and Travel Program']]);
-		data.addRows([[ 60.192059,24.945831,'Tampere',2,'Analysis Comitee Coordination Meeting']]);
-		data.addRows([[ 52.409538,16.931992,'Poznan',3,'ESTIEM Concill Meeting']]);
-		
+		data.addRows([[41.151636,-8.569336,'Porto',0,'ESTIEM Council Meeting 12 - 18 April 2016']]);
+		data.addRows([[35.12054,33.93894,'Famagusta',0,'ESTIEM Council Meeting 11 - 18 November 2019']]);
+		data.addRows([[48.13743,11.57549,'Munich',0,'Octoberfest Activity Week 13 - 29 September 2019']]);
+		data.addRows([[ 40.71427,-74.00597,'New York ',1,'Work and Travel Program June- September 2019']]);
+		data.addRows([[ 60.192059,24.945831,'Tampere',2,'Analysis Committee Coordination Meeting 10 - 14 August 2017']]);
+		data.addRows([[ 44.80401,20.46513,'Belgrade',3,'Data Science and BlockChain 11 - 17 March 2019 ']]);
+		data.addRows([[ 52.409538,16.931992,'Poznan',4,'ESTIEM Council Meeting 25 April - 1 May 2017 ']]);
+		data.addRows([[ 59.937500,30.308611,'St Petersburg',5,'Data Analysis with Python 7  - 14 July 2019']]);
+		data.addRows([[ 37.38283, -5.97317,'Seville',6,'ESTIEM Europe3D Event 8  - 14 February 2016']]);
+		data.addRows([[ 39.925533, 32.866287,'Ankara',6,'Mediterranean Regional Coordination Meeting METU 26 - 30 June 2016 ']]);
+		data.addRows([[ 41.13488, 24.888,'Xanthi',6,'IT School 22 - 29 March 2016 ']]);		 
 									
 		
 		var options = {
-		colorAxis:  {minValue: 0, maxValue: 1,  colors: ['#6699CC','#9966CC']},
+		colorAxis:  {minValue: 0, maxValue: 1,  colors: ['#174F20','#174F20']},
 		legend: 'none',    
 		backgroundColor: {fill:'transparent',stroke:'#FFF' ,strokeWidth:0 },    
 		datalessRegionColor: '#f5f5f5',
 		displayMode: 'region', 
-		enableRegionInteractivity: 'false', 
+		enableRegionInteractivity: 'true', 
 		resolution: 'countries',
 		sizeAxis: {minValue: 1, maxValue:1,minSize:5,  maxSize: 5},
 		region:'world',
@@ -127,7 +134,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.jpg);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -146,7 +153,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.jpg);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -171,7 +178,7 @@
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_1.png);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_1.jpg);">
 	    				</div>
     				</div>
     			</div>
@@ -328,7 +335,7 @@
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="https://m.estiem.org">European Student of Industrial Engineering and Manegement</a></h3>
-							<span>Analysis Commitee Team Member 2018-2019</span>
+							<span>Analysis Committee Team Member 2018-2019</span>
 	    				</div>
     				</div>
 				</div>
@@ -338,14 +345,6 @@
 							<span class="date"><h2>International Activities</h2></span>
 							<div id="regions_div" ></div>
 						</div>
-
-
-
-
-
-
-
-
 
 
 			    				</div>
